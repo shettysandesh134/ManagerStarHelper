@@ -105,6 +105,15 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 room = { id = "androidx.room", version.ref = "room" }
 
+starhelper-android-application = { id = "starhelper.android.application", version = "unspecified"}
+starhelper-android-application-compose = { id = "starhelper.android.application.compose", version = "unspecified"}
+starhelper-android-library = { id = "starhelper.android.library", version = "unspecified"}
+starhelper-android-library-compose = { id = "starhelper.android.library.compose", version = "unspecified"}
+starhelper-android-feature-ui = { id = "starhelper.android.feature.ui", version = "unspecified"}
+starhelper-android-room = { id = "starhelper.android.room", version = "unspecified"}
+starhelper-jvm-library = { id = "starhelper.jvm.library", version = "unspecified"}
+starhelper-jvm-ktor = { id = "starhelper.jvm.ktor", version = "unspecified"}
+
 [bundles]
 compose = [
     "androidx-activity-compose",
