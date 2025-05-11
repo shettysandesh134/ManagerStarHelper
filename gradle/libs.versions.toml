@@ -30,9 +30,11 @@ work = "2.10.0"
 kotlinx-serialization = "1.7.3"
 secretsPlugin = "2.0.1"
 annotation = "1.9.1"
+googleServices = "4.4.2"
+firebaseBom = "33.13.0"
 
 # Project versions
-projectApplicationId = "com.plcoding.runique"
+projectApplicationId = "com.sandeshshetty.starhelper"
 projectVersionName = "1.0"
 projectMinSdkVersion = "25"
 projectTargetSdkVersion = "35"
@@ -88,6 +90,9 @@ timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 org-mongodb-bson = { module = "org.mongodb:bson", version.ref = "bson" }
 annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
 
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-auth = { module = "com.google.firebase:firebase-auth-ktx"}
+
 # Gradle
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 android-tools-common = { group = "com.android.tools", name = "common", version.ref = "androidTools" }
@@ -104,6 +109,7 @@ jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrai
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 room = { id = "androidx.room", version.ref = "room" }
+google-services = { id = "com.google.gms.google-services", version = "googleServices" }
 
 starhelper-android-application = { id = "starhelper.android.application", version = "unspecified"}
 starhelper-android-application-compose = { id = "starhelper.android.application.compose", version = "unspecified"}

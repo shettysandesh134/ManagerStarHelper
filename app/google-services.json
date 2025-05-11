@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307180218966",
+    "project_id": "starhelper-d9696",
+    "storage_bucket": "starhelper-d9696.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307180218966:android:0d436d7794f67d1017e9f7",
+        "android_client_info": {
+          "package_name": "com.sandeshshetty.starhelper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6_aVyVozz2_o7ZQEKbu4v9hYpnPP6Cnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

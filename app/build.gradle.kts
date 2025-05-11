@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.starhelper.android.application.compose)
     alias(libs.plugins.starhelper.jvm.ktor)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -89,4 +90,7 @@ dependencies {
     implementation(projects.home.presentation)
     implementation(projects.home.domain)
     implementation(projects.home.data)
+
+    implementation(platform(libs.firebase.bom))
+
 }

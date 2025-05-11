@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_already_in_use">This email is already registered.</string>
+    <string name="unknown">Unknown Error</string>
+    <string name="no_internet">Check your internet connnection.</string>
+    <string name="server_error">Error connecting database</string>
+    <string name="unauthorized">Unauthorised</string>
+    <string name="serialisation_error">Error serializing data</string>
+    <string name="invalid_credentials">The email and password provided are not correct</string>
+    <string name="wrong_password">Wrong password provided</string>
+    <string name="user_not_found">User not found.</string>
+</resources>

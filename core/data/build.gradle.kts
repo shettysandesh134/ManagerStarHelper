@@ -37,4 +37,7 @@ dependencies {
     implementation(libs.timber)
     implementation(projects.core.domain)
     implementation(projects.core.database)
+
+    compileOnly(platform(libs.firebase.bom))
+    compileOnly(libs.firebase.auth)
 }
