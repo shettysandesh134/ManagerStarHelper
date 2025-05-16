@@ -3,6 +3,7 @@ package com.sandeshshetty.starhelper
 import android.app.Application
 import com.sandeshshetty.auth.data.di.authDataModule
 import com.sandeshshetty.auth.presentation.di.authViewModelModule
+import com.sandeshshetty.home.presentation.di.homeViewModelModule
 import com.sandeshshetty.starhelper.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
@@ -27,7 +28,8 @@ class StarHelperApp: Application() {
             modules(
                 appModule,
                 authDataModule,
-                authViewModelModule
+                authViewModelModule,
+                homeViewModelModule
             )
         }
     }

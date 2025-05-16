@@ -37,4 +37,8 @@ class AuthRepositoryImpl : AuthRepository {
             FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password).await()
         }
     }
+
+    override suspend fun isUserLoggedIn(): Boolean {
+        return FirebaseAuth.getInstance().currentUser != null
+    }
 }
