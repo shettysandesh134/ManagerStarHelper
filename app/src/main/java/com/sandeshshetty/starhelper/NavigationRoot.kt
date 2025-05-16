@@ -38,11 +38,12 @@ import com.sandeshshetty.home.presentation.dashboard.DashboardRoot
 
 @Composable
 fun NavigationRoot(
-    navController: NavHostController
+    navController: NavHostController,
+    isLoggedIn: Boolean = false
 ) {
     NavHost(
         navController = navController,
-        startDestination = Routes.Dashboard.route
+        startDestination = if (isLoggedIn) Routes.Dashboard.route else Routes.Auth.route
     ) {
         authGraph(navController)
         composable(Routes.Dashboard.route) {
