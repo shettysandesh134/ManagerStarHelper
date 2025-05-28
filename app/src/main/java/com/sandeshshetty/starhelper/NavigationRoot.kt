@@ -30,6 +30,8 @@ import com.sandeshshetty.core.presentationdesignsystem.components.StarHelperScaf
 import com.sandeshshetty.core.presentationdesignsystem.components.StarHelperToolbar
 import com.sandeshshetty.home.presentation.R
 import com.sandeshshetty.home.presentation.dashboard.DashboardRoot
+import com.sandeshshetty.home.presentation.employee.EmployeeRoot
+import com.sandeshshetty.home.presentation.employee.EmployeeScreen
 
 /**
  * @author sandeshshetty
@@ -152,7 +154,7 @@ fun DashboardRoot(navController: NavHostController) {
                 DashboardRoot()
             }
             composable(Routes.Employee.route) {
-                Text(text = "Employee Screen")
+                EmployeeRoot()
             }
             composable(Routes.Sale.route) {
                 Text(text = "Sale Screen")

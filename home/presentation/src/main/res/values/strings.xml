@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="dashboard">Dashboard</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phoneNumber_hint">Just type ur 9digit number</string>
+    <string name="phone_number">Mobile No.</string>
+    <string name="hourly_rate">Hourly Rate</string>
+    <string name="daily_rate">Daily Rate</string>
+    <string name="per_hour_rate_employee">per Hour</string>
+    <string name="per_day_rate_employee">per Day</string>
+    <string name="shift_start_time_full_time_employee">Start</string>
+    <string name="_24hour_format">24hour</string>
+    <string name="shift_end_time_full_time_employee">End</string>
 </resources>
