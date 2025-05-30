@@ -18,4 +18,8 @@ sealed interface DataError : Error {
         USER_NOT_FOUND,
         WRONG_PASSWORD
     }
+
+    enum class Local: DataError {
+        DISK_FULL
+    }
 }

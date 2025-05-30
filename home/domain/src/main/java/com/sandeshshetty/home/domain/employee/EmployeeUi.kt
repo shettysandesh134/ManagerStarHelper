@@ -14,7 +14,6 @@ data class EmployeeUi(
     val lastName: String,
     val availability: List<DayAvailable> = emptyList(),
     val employmentType: EmploymentType,
-    val perDayWorkingHours: Double? = null,
     val phoneNumber: String,
     val dob: String,
     val email: String,
